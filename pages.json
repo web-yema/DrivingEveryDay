@@ -44,6 +44,69 @@
             }
             
         }
+        ,{
+            "path" : "components/my/ziliao/ziliao",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "资料",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "components/my/myuanuan/myuanuan",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "习惯",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "components/my/mima/mima",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "密码",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "components/my/fuwu/fuwu",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "服务协议",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "components/my/genghuan/genghuan",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "更换手机",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "components/my/dingdan/dingdan",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "历史订单",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "components/my/pingjia/pingjia",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的评价",
+                "enablePullDownRefresh": false
+            }
+            
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",

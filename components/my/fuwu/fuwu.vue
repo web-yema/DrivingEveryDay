@@ -1,13 +1,11 @@
 <template>
-	<Mys/>
+	<view>
+		服务协议
+	</view>
 </template>
 
 <script>
-	import Mys from '@/components/mys/mys.vue'
 	export default {
-		components:{
-			Mys
-		},
 		data() {
 			return {
 				

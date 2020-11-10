@@ -128,7 +128,7 @@
 							iconPath: '../../static/touxiang.png'
 						}
 						
-						_this. = [obj]
+						_this.covers = [obj]
 						
 						
 				    }
