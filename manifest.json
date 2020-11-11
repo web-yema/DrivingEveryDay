@@ -9,7 +9,7 @@
         "nvueCompiler" : "uni-app",
         "compilerVersion" : 3,
         "modules" : {
-            "Maps" : {}
+            "Geolocation" : {}
         },
         "distribute" : {
             "android" : {
@@ -44,7 +44,14 @@
             "sdkConfigs" : {
                 "maps" : {
                     "amap" : {
-                        "appkey_ios" : "972f42ec21d1b564b75b36181df16dbe",
+                        "appkey_ios" : "",
+                        "appkey_android" : "972f42ec21d1b564b75b36181df16dbe"
+                    }
+                },
+                "geolocation" : {
+                    "amap" : {
+                        "__platform__" : [ "android" ],
+                        "appkey_ios" : "",
                         "appkey_android" : "972f42ec21d1b564b75b36181df16dbe"
                     }
                 }
