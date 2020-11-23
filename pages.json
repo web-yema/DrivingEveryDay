@@ -1,45 +1,69 @@
 {
 	"pages": [{
-		"path": "pages/index/index",
-		"style": {
-			"navigationBarTitleText": "uni-ui基础项目",
-			"navigationBarTextStyle":"black",
-			"app-plus": {
-				"titleNView": false //禁用原生导航栏
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
 			}
+
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-ui基础项目",
+				"navigationBarTextStyle": "black",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+			}
+		}, {
+			"path": "pages/news/news",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/menu/menu",
+			"style": {
+				"navigationBarTitleText": "设置",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "wode",
+				"enablePullDownRefresh": false
+			}
+
 		}
-	}    ,{
-            "path" : "pages/login/login",
+	    ,{
+            "path" : "pages/order/order",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "登录",
+                "navigationBarTitleText": "订单",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/order/orderdetails",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "订单详情",
                 "enablePullDownRefresh": false
             }
             
         }
         ,{
-            "path" : "pages/news/news",
+            "path" : "pages/chat/chat",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "消息",
-                "enablePullDownRefresh": false
-            }
-            
-        }
-        ,{
-            "path" : "pages/menu/menu",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "设置",
-                "enablePullDownRefresh": false
-            }
-            
-        }
-        ,{
-            "path" : "pages/my/my",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "wode",
+                "navigationBarTitleText": "聊天",
                 "enablePullDownRefresh": false
             }
             
@@ -51,5 +75,5 @@
 		"navigationBarBackgroundColor": "#FF5051",
 		"backgroundColor": "#FFFFFF"
 	}
-	
+
 }

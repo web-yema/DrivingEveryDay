@@ -1,6 +1,7 @@
 <template>
 	<view>
 		我的
+		<button @click="tuichuLogin()"> 退出登录</button>
 	</view>
 </template>
 
@@ -12,7 +13,14 @@
 			}
 		},
 		methods: {
-			
+			tuichuLogin(){
+				// 清除缓存
+				uni.clearStorage('tokens');
+				uni.clearStorage('admins');
+				uni.reLaunch({
+				    url: '/pages/login/login'
+				});
+			}
 		}
 	}
 </script>

@@ -1,16 +1,18 @@
 import Vue from 'vue'
 import App from './App'
-// 注册全局自定义导航栏
-// import cuCustom from './colorui/components/cu-custom.vue'
-// Vue.component('cu-custom',cuCustom)
+
+import store from './store/index.js'
+import {baseUrl} from '@/api/index.js'
+import io from 'common/weapp.socket.io.js'
+Vue.prototype.socket= io(baseUrl)
 
 
 Vue.config.productionTip = false
 
-
 App.mpType = 'app'
 
 const app = new Vue({
-	...App
+	...App,
+	store
 })
 app.$mount()
